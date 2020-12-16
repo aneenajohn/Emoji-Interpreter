@@ -23,6 +23,10 @@ header {
 }
 
 input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
   text-align: center;
   padding: 1rem;
   /* margin-bottom: 1rem; */
@@ -30,19 +34,19 @@ input {
   width: 80%;
   height: 5%;
 }
-#searchBar {
+/* #searchBar {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 #output {
-  margin-top: 20px;
-  display: block;
+  margin-top: 2rem;
+  display: inline-block;
   padding: 1rem;
   font-weight: bolder;
   font-size: larger;
-  box-sizing: border-box;
+  /* box-sizing: ; */
   background-color: white;
   border-radius: 10px;
   color: #202d36;
