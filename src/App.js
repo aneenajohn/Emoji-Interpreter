@@ -93,7 +93,7 @@ export default function App() {
       </header>
 
       <input
-        placeholder="🔎 Click one from below or Insert Emoji here..."
+        placeholder="🔎 Insert Emoji here..."
         onChange={inputEventHandler}
       />
 

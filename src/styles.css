@@ -59,17 +59,14 @@ input {
   cursor: pointer;
   font-size: larger;
   text-align: center;
-  grid-template-columns: repeat(8, 70px);
-  font-size: xxx-large;
-  margin-left: 25%;
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .grid {
     grid-template-columns: repeat(3, 50px);
     grid-gap: 15px;
     font-size: xx-large;
-    margin-left: 15%;
+    margin-left: 6%;
   }
 }
 @media (min-width: 640px) {
@@ -95,7 +92,7 @@ input {
     font-size: xxx-large;
     margin-left: 25%;
   }
-} */
+}
 
 /* .sub-heading {
   display: flex;
