@@ -64,7 +64,7 @@ input {
 @media (max-width: 480px) {
   .grid {
     grid-template-columns: repeat(3, 50px);
-    grid-gap: 5px;
+    grid-gap: 15px;
     font-size: xx-large;
     margin-left: 15%;
   }

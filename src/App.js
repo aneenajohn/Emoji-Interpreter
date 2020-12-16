@@ -98,7 +98,10 @@ export default function App() {
       />
 
       {/* <div style={{ padding: "1rem", fontWeight: "bolder" }}>{meaning}</div> */}
-      <div id="output">{meaning}</div>
+
+      <div id="output" placeholder="meaning appears here">
+        {meaning}
+      </div>
       <h2 style={{ padding: "1rem" }}>Emojis We know</h2>
       {/* <h3 className="sub-heading">Smiley</h3> */}
       <div className="grid">
