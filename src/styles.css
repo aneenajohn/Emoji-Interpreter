@@ -37,10 +37,15 @@ input {
 }
 
 #output {
+  margin-top: 20px;
+  display: block;
   padding: 1rem;
   font-weight: bolder;
   font-size: larger;
   box-sizing: border-box;
+  background-color: white;
+  border-radius: 10px;
+  color: #202d36;
 }
 
 .grid {
