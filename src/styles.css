@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+/* To reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+body {
+  margin: auto;
+  padding: 5rem;
+  background-color: #202d36;
+  color: white;
+}
+.App {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+header {
+  background-color: #202d36;
+  padding: 2rem;
+  display: block;
+  margin: auto;
+}
+
+input {
+  text-align: center;
+  padding: 1rem;
+  /* margin-bottom: 1rem; */
+  border-radius: 10px;
+  width: 80%;
+  height: 5%;
+}
+#searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#output {
+  padding: 1rem;
+  font-weight: bolder;
+  font-size: larger;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+
+  grid-gap: 10px;
+  cursor: pointer;
+  font-size: larger;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 5px;
+    font-size: xx-large;
+    margin-left: 15%;
+  }
+}
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 5px;
+    font-size: xx-large;
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 5px;
+    font-size: xx-large;
+    margin-left: 15%;
+  }
+}
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(8, 70px);
+    font-size: xxx-large;
+    margin-left: 25%;
+  }
+}
+
+.sub-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  flex-direction: row;
+}
