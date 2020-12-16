@@ -59,9 +59,12 @@ input {
   cursor: pointer;
   font-size: larger;
   text-align: center;
+  grid-template-columns: repeat(8, 70px);
+  font-size: xxx-large;
+  margin-left: 25%;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .grid {
     grid-template-columns: repeat(3, 50px);
     grid-gap: 15px;
@@ -92,12 +95,12 @@ input {
     font-size: xxx-large;
     margin-left: 25%;
   }
-}
+} */
 
-.sub-heading {
+/* .sub-heading {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 0.5rem;
   flex-direction: row;
-}
+} */
